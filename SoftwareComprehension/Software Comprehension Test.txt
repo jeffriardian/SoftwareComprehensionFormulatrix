@@ -1,0 +1,10 @@
+
+1. What would you say about the above code?
+I think that's good enough, but need to add some condition
+
+2. What sorts of problems does this code have?
+Based on the references of https://learn.microsoft.com/en-us/dotnet/api/system.runtime.interopservices.marshal.copy?view=net-7.0#system-runtime-interopservices-marshal-copy(system-intptr-system-byte()-system-int32-system-int32
+It should be Copy the array to unmanaged memory. Then, Copy the unmanaged array back to another managed array.
+
+3. How can this code be improved?
+See the file attachment : GrabTheFrame.cs
